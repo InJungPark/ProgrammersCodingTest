@@ -15,18 +15,16 @@ public class main {
 
         System.out.println("----------------");
 
-
         System.out.println(getResult(10, 5));
         System.out.println(getResult(7, 2));
         System.out.println(getResult(15, 5));
 
-
     }
-
 
     public static int getResult(int num1, int num2) {
         int result = num1 / num2;
         return result;
+
     }
 
 }
